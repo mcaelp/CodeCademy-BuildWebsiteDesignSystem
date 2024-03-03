@@ -1,0 +1,191 @@
+.container {
+    max-width: 1200px;
+    min-width: 417px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(15, 14, 23);
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 254);
+}
+.subtitle {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 40px;
+    color: rgb(255, 137, 6);
+}
+
+.nav li a:hover {
+    color: rgb(255, 137, 6);
+
+}
+
+nav li {
+    display: inline;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    color: rgb(242, 95, 76);
+}
+.nav li a:hover{
+    font-size: 22px;
+    color: rgb(238, 187, 195);
+    transition: font-size .2s ease-out, color .2s;
+}
+
+#textstyles,
+#fonts,
+#colors {
+    border: 1px dashed rgb(255, 255, 254);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+#colors p{
+    color: rgb(255, 255, 254);
+    border: 1px solid rgb(255, 255, 254);
+    display: inline-block;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 2px 4px 1px;
+}
+#colors p:hover{
+    font-size: 22px;
+    transition: font-size .2s ease-in;
+    color:rgba(15, 14, 23, 0.9)
+}
+.color1{
+    background-color: rgb(229, 49, 112);
+    ;
+}
+.color2{
+    background-color: rgb(242, 95, 76);
+    ;
+}
+.color3{
+    background-color: rgb(167, 169, 190);
+    ;
+}
+.color4{
+    background-color: rgb(238, 187, 195);
+    ;
+}
+.roboto, .raleway, .playfair{
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+#fonts h3{
+    color: rgb(255, 255, 254);
+    margin-left: 10px;
+    text-decoration: underline;
+    display: block;
+    font-size: 25px;
+}
+#fonts p{
+    color: rgb(238, 187, 195);
+    margin-left: 10px;
+    display: block;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.roboto .regular{
+    font-style: normal;
+}
+.roboto .italic{
+    font-style: italic;
+}
+.roboto .bold{
+    font-weight:bold;
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+.raleway .regular{
+    font-style: thin;
+    font-weight: 200;
+}
+.raleway .italic{
+    font-style: italic;
+}
+.raleway .bold{
+    font-weight: bold;
+}
+.playfair{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+}
+.playfair .regular{
+    font-style: regular;
+}
+.playfair .italic{
+    font-style: italic;
+}
+.playfair .bold{
+    font-weight: bold;
+}
+.roboto p:hover, .raleway p:hover, .playfair p:hover{
+    font-size: 20.2px;
+    transition: font-size .1s ease-in;
+    box-sizing: border-box;
+}
+#textstyles h1, #textstyles .h2, #textstyles p{
+    color: rgb(255, 255, 254);
+    text-align: left;
+    margin-left: 10px;
+}
+#textstyles li{
+    text-align: left;
+    color: rgb(238, 187, 195)
+}
+#textstyles a{
+    text-align: left;
+    display: block;
+    color: rgb(255, 255, 254);
+    margin-left: 10px;
+}
+footer{
+    font-style: italic;
+    color: rgb(255, 255, 254);
+}
+.h1, .h2sub, .paragraph, .anchor{
+    display: block;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+ul{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+a{
+    font-size: 18px;
+}
