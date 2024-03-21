@@ -3,7 +3,9 @@
     min-width: 417px;
     margin: 0 auto;
 }
-
+ul{
+    padding: 0;
+}
 body {
     text-align: center;
     font-family: "Roboto", sans-serif;
